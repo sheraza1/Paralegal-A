@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Sample case data and anything generated from it (contains realistic
+# but synthetic PII - names, medical/financial details)
+sample_docs/
+demand_letter.pdf
+citations.json
+cli_focus.txt
+cli_pd.txt
+doc_id_map.pkl
+faiss_index.bin
+faiss_sections.bin
+faiss_sections_2024-PI-001.bin
+section_id_map.pkl
+section_id_map_2024-PI-001.pkl
+gen.pid
+
+# Runtime cache
+cache/

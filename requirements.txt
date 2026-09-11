@@ -1,0 +1,60 @@
+# Core dependencies for legal AI challenge project
+# Core ML and NLP
+torch>=2.2.0
+transformers>=4.54.0
+sentence-transformers>=5.0.0
+faiss-cpu>=1.11.0
+numpy>=1.26.0
+pandas>=2.3.0
+
+# Document processing
+pdfplumber>=0.11.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# PDF generation and formatting
+reportlab>=4.4.0
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Web framework (if using web interface)
+Flask>=2.3.0
+Werkzeug>=2.3.0
+
+# LLM and RAG
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-community>=0.0.20
+chromadb>=1.0.0
+
+# HTTP and API
+requests>=2.32.0
+httpx>=0.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+colorama>=0.4.6
+
+# Development and testing
+pytest>=8.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: GPU support
+# torch>=2.2.0+cu118  # Uncomment for CUDA support
+
+# Optional: Additional NLP models
+# spacy>=3.6.0
+# nltk>=3.8.0
+
+# Optional: Monitoring and logging
+# tensorboard>=2.13.0
+# wandb>=0.15.0
+
+# Note: Some packages like os, re, math, hashlib, datetime, json are part of Python standard library
+# and don't need to be installed separately. 
